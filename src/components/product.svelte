@@ -2,8 +2,8 @@
   import { navigate } from "svelte-routing";
 </script>
 
-<div class="flex bg-base-200 w-full py-8 full-width">
-  <div class="w-3/5 text-right px-20">
+<div class="flex bg-base-200 w-full full-width">
+  <div class="w-3/5 text-right px-20 py-8">
     <h2 class="text-7xl font-bold pb-2">
       <span class="text-primary">Pico</span>Pump
     </h2>

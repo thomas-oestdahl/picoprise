@@ -7,7 +7,7 @@
       <p class="text-2xl font-bold font-serif">
         <span class="text-primary">Pico</span>Prise
       </p>
-      <p class="text-sm">leading in sauna innovation</p>
+      <p class="text-sm">Leading in sauna innovation</p>
     </div>
     <div class="flex flex-col items-start">
       <p class="text-lg">
