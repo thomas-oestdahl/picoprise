@@ -52,6 +52,7 @@
 	"types": "./dist/index.d.ts",
 	"type": "module",
 	"dependencies": {
+		"@azure/msal-browser": "^3.3.0",
 		"svelte-routing": "^2.5.0"
 	}
 }
