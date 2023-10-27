@@ -5,7 +5,7 @@
 
 <Appbar />
 
-<main>
+<main class="overflow-x-hidden">
   <div class="container mx-auto px-5">
     <slot />
   </div>
