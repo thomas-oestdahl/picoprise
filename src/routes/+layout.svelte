@@ -1,13 +1,13 @@
 <script>
   import "../app.css";
-  import Hero from "../components/hero.svelte";
+  import Appbar from "../components/appbar.svelte";
   import Login from "../components/login.svelte";
 </script>
 
-<Hero />
-<main>
-  <Login />
-  <div class="container mx-auto">
+<Appbar />
+<Login />
+<main class="overflow-x-hidden">
+  <div class="container mx-auto px-5">
     <slot />
   </div>
 </main>

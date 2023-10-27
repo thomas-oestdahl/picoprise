@@ -1,6 +1,8 @@
 <script>
   import "../app.css";
-  import Stats from "../components/stats.svelte";
+  import Product from "../components/product.svelte";
+  import Why from "../components/why.svelte";
 </script>
 
-<Stats />
+<Product />
+<Why />

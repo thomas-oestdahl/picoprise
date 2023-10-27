@@ -1,7 +1,3 @@
-<script>
-  import { navigate } from "svelte-routing";
-</script>
-
 <div class="hero bg-base-200 py-5">
   <div class="hero-content text-center">
     <div class="max-w-lg">
@@ -16,7 +12,7 @@
       </p>
       <button
         class="btn btn-secondary btn-lg"
-        on:click={() => navigate("/order", { replace: true })}>Order now</button
+        on:click={() => (window.location.pathname = "/order")}>Order now</button
       >
     </div>
   </div>

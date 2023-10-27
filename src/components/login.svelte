@@ -1,7 +1,6 @@
 <script>
     import { PublicClientApplication } from "@azure/msal-browser";
-    import { setContext } from "svelte";
-    import { writable } from "svelte/store";
+    import { account, token } from "../store/userInfo.js";
 
     const MSAL_CONFIG = {
         auth: {
@@ -30,11 +29,10 @@
 
     const handleResponse = (response) => {
         if (response !== null) {
-            setContext("idToken", response.idToken);
-            setContext("account", response.account);
+            account.set(response.account);
+            token.set(response.idToken);
         } else {
-            const account = getAccount();
-            setContext("account", account);
+            account.set(getAccount());
         }
 
         if ($account) {
@@ -61,8 +59,9 @@
         } else if (currentAccounts.length === 1) {
             return currentAccounts[0];
         }
+
         return null;
     }
 </script>
 
-<button on:click={login}>Login</button>
+<button class="btn btn-accent" on:click={login}>Login</button>
