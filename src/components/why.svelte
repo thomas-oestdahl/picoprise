@@ -1,4 +1,4 @@
-<article class="">
+<article class="py-5">
   <h2 class="text-4xl font-serif font-bold pb-5">Why PicoPump?</h2>
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
     <div class="max-w-md">

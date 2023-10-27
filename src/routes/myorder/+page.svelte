@@ -27,18 +27,34 @@
 </div>
 
 <style>
-  .background-primary {
-    background-color: hsl(var(--p) / 0.1);
+  .step {
+    font-size: 14px;
+  }
+
+  .step::before {
+    height: 0.1rem;
   }
 
   .step::after {
     height: 2.5rem;
     width: 2.5rem;
+    background-color: #fff;
+    border: 2px solid hsl(var(--b3) / var(--tw-bg-opacity));
+    font-weight: 800;
+  }
+
+  .step-primary::after {
+    background-color: hsl(var(--p));
+    border: 2px solid hsl(var(--p));
   }
 
   .current::after {
-    background-color: hsl(var(--b3) / var(--tw-bg-opacity));
-    border: 1px solid hsl(var(--p) / var(--tw-bg-opacity));
+    border: 2px solid hsl(var(--p) / var(--tw-bg-opacity));
     color: hsl(var(--bc) / var(--tw-text-opacity));
+    background-color: #fff;
+  }
+
+  .background-primary {
+    background-color: hsl(var(--p) / 0.1);
   }
 </style>
