@@ -4,7 +4,7 @@ export default {
   content: ["./src/**/*.{html,js,svelte,ts}"],
   theme: {
     fontFamily: {
-      serif: ['"Rockkitt"', "serif"],
+      serif: ['"Roboto Slab"', "serif"],
       sans: ['"Open Sans"', "sans-serif"],
     },
     extend: {},
