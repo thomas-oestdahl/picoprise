@@ -1,15 +1,15 @@
 <div
   class="flex flex-col justify-center md:flex-row bg-base-200 full-width mb-5"
 >
-  <div class="md:text-right px-5 md:px-20 py-8">
+  <div class="md:text-right px-5 md:px-10 xl:px-20 py-8">
     <h2 class="text-5xl md:text-7xl font-bold pb-5">
       <span class="text-primary">Pico</span>Pump
     </h2>
-    <p class="pb-5 text-lg md:text-xl max-w-xl ml-auto">
+    <p class="pb-5 text-lg md:text-xl max-w-xl md:ml-auto">
       As the undisputed champs of all things sauna, we proudly present to you
       the PicoPump – the sauna sensation that’s got the steamy world buzzing!
     </p>
-    <p class="pb-5 text-lg md:text-xl max-w-xl ml-auto">
+    <p class="pb-5 text-lg md:text-xl max-w-xl md:ml-auto">
       It’s not just a gizmo; it’s like having a personal sauna butler who knows
       all your sauna secrets. We’re not saying it’s magical, but it’s been known
       to turn a simple sweat session into a full-blown sauna fiesta!
@@ -21,7 +21,7 @@
     </button>
   </div>
   <div
-    class="min-w-[320px] min-h-[320px] lg:min-w-[720px]  flex"
+    class="min-w-[400px] min-h-[400px] md:min-w-[540px] xl:min-w-[720px]  flex"
   >
     <div
       class="bg-cover bg-no-repeat bg-center w-full rounded-tl-[20%]"

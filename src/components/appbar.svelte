@@ -11,15 +11,17 @@
           class="text-primary ml-2"><i class="ph ph-wave-sine mr-2" /></span
         >
       </a>
-      <p class="hidden sm:block text-sm ">Leading the sauna innovation</p>
+      <p class="hidden sm:block text-sm">Leading the sauna innovation</p>
     </div>
-    <div class="flex flex-col items-start">
-      <p class="text-lg">
-        <i class="ph ph-user mr-3" />John Doe
-      </p>
+    <div class="flex flex-row items-center gap-4">
+      <p class="text-lg"><i class="ph ph-user mr-2" />John Doe</p>
+      <button class="btn">
+        <i class="ph ph-list text-lg" />
+      </button>
     </div>
   </div>
 </section>
+
 <nav class="navbar tabs mb-5">
   <div class="w-full flex flex-row justify-center">
     <a
@@ -35,7 +37,9 @@
       href="/myorder">My order</a
     >
     <a
-      class="tab tab-bordered {currentRoute === '/dashboard' ? 'tab-active' : ''}"
+      class="tab tab-bordered {currentRoute === '/dashboard'
+        ? 'tab-active'
+        : ''}"
       href="/dashboard">Dashboard</a
     >
   </div>

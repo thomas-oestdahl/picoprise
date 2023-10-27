@@ -1,9 +1,11 @@
-<article class="py-5">
-  <h2 class="text-4xl font-serif font-bold pb-5">Why PicoPump?</h2>
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+<article class="mt-10">
+  <h2 class="text-3xl font-serif font-bold text-secondary pb-10">Why PicoPump?</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-10">
     <div class="max-w-md">
       <h3 class="text-xl font-serif font-bold">
-        <span class="text-primary"><i class="ph ph-wave-sine mr-2" />Precision control</span>
+        <span class="text-primary"
+          ><i class="ph ph-wave-sine mr-2" />Precision control</span
+        >
       </h3>
       <p class="">
         PicoPump gives you precise control over the temperature and humidity in
@@ -13,7 +15,9 @@
     </div>
     <div class="max-w-md">
       <h3 class="text-xl font-serif font-bold">
-        <span class="text-primary"><i class="ph ph-wave-sine mr-2" />Easy installation</span>
+        <span class="text-primary"
+          ><i class="ph ph-wave-sine mr-2" />Easy installation</span
+        >
       </h3>
       <p class="">
         Installing PicoPump is a breeze. It comes with a user-friendly manual,
@@ -23,7 +27,9 @@
     </div>
     <div class="max-w-md">
       <h3 class="text-xl font-serif font-bold">
-        <span class="text-primary"><i class="ph ph-wave-sine mr-2" />Global reach</span>
+        <span class="text-primary"
+          ><i class="ph ph-wave-sine mr-2" />Global reach</span
+        >
       </h3>
       <p class="">
         PicoPump is going global, and it’s available in every corner of the
@@ -33,7 +39,9 @@
     </div>
     <div class="max-w-md">
       <h3 class="text-xl font-serif font-bold">
-        <span class="text-primary"><i class="ph ph-wave-sine mr-2" />Built to last</span>
+        <span class="text-primary"
+          ><i class="ph ph-wave-sine mr-2" />Built to last</span
+        >
       </h3>
       <p class="">
         Crafted in the challenging climate of Norway, PicoPump is designed to

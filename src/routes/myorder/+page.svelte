@@ -1,30 +1,30 @@
 <script>
-  import { statusList } from '$lib/objects.js';
-  let currentStatus = statusList.find(x => x.id === 20);
+  import { statusList } from "$lib/objects.js";
+  let currentStatus = statusList.find((x) => x.id === 20);
 </script>
 
-<div class="max-w-3xl mx-auto">
-  <p class="text-primary text-4xl font-bold pt-10 pb-20">
-    My order
-  </p>
+<section>
+  <h1 class="text-3xl font-serif font-bold text-secondary pb-10">My order</h1>
 
-  <ul class="steps steps-vertical w-full lg:steps-horizontal">
+  <ul class="steps steps-vertical w-full md:steps-horizontal">
     {#each statusList as status}
       {#if currentStatus}
-        <li class="step {currentStatus.id >= status.id ? "step-primary" : ""} {currentStatus.id === status.id ? "current" : ""}">{status.name}</li>
+        <li class="step {currentStatus.id >= status.id ? 'step-primary' : ''} ">
+          {status.name}
+        </li>
       {:else}
         <li class="step">{status.name}</li>
       {/if}
-	  {/each}
+    {/each}
   </ul>
 
   {#if currentStatus}
-    <div class="background-primary mt-20 px-10 py-10 rounded-tr-[50px]">
-      <p class="text-2xl pb-3">{currentStatus.name}</p>
+    <div class="background-primary mt-10 p-10 rounded-tr-[50px]">
+      <p class="text-2xl font-serif font-bold pb-2">{currentStatus.name}</p>
       <p>{currentStatus.description}</p>
     </div>
   {/if}
-</div>
+</section>
 
 <style>
   .step {
