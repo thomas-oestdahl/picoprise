@@ -34,5 +34,9 @@
       class="tab tab-bordered {currentRoute === '/myorder' ? 'tab-active' : ''}"
       href="/myorder">My order</a
     >
+    <a
+      class="tab tab-bordered {currentRoute === '/dashboard' ? 'tab-active' : ''}"
+      href="/dashboard">Dashboard</a
+    >
   </div>
 </nav>
