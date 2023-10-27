@@ -7,7 +7,9 @@
   <div class="container mx-auto pr-10 flex items-center justify-between">
     <div class="flex flex-col items-start">
       <a class="text-2xl font-bold font-serif" href="/">
-        <span class="text-primary">Pico</span>Prise
+        <span class="text-primary">Pico</span>Prise<span
+          class="text-primary ml-2"><i class="ph ph-wave-sine mr-2" /></span
+        >
       </a>
       <p class="text-sm">Leading in sauna innovation</p>
     </div>
@@ -22,15 +24,15 @@
 <nav class="navbar tabs mb-5">
   <div class="container mx-auto">
     <a
-      class="tab tab-lifted {currentRoute === '/' ? 'tab-active' : ''}"
+      class="tab tab-bordered {currentRoute === '/' ? 'tab-active' : ''}"
       href="/">Home</a
     >
     <a
-      class="tab tab-lifted {currentRoute === '/order' ? 'tab-active' : ''}"
+      class="tab tab-bordered {currentRoute === '/order' ? 'tab-active' : ''}"
       href="/order">Order</a
     >
     <a
-      class="tab tab-lifted {currentRoute === '/myorder' ? 'tab-active' : ''}"
+      class="tab tab-bordered {currentRoute === '/myorder' ? 'tab-active' : ''}"
       href="/myorder">My order</a
     >
   </div>
