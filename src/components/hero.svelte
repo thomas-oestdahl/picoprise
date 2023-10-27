@@ -16,7 +16,7 @@
       </p>
       <button
         class="btn btn-secondary btn-lg"
-        on:click={() => navigate("/order", { replace: true })}>Order now</button
+        on:click={() => (window.location.pathname = "/order")}>Order now</button
       >
     </div>
   </div>
