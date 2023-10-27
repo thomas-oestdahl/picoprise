@@ -2,7 +2,7 @@
   class="flex flex-col justify-between sm:flex-row bg-base-200 full-width mb-5"
 >
   <div class="flex-grow md:text-right px-5 md:px-20 py-8">
-    <h2 class="text-7xl font-bold pb-2">
+    <h2 class="text-5xl md:text-7xl font-bold pb-2">
       <span class="text-primary">Pico</span>Pump
     </h2>
     <p class="py-5 text-lg md:text-2xl max-w-2xl ml-auto">

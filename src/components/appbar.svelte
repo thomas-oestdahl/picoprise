@@ -11,18 +11,17 @@
           class="text-primary ml-2"><i class="ph ph-wave-sine mr-2" /></span
         >
       </a>
-      <p class="text-sm">Leading in sauna innovation</p>
+      <p class="hidden sm:block text-sm ">Leading the sauna innovation</p>
     </div>
     <div class="flex flex-col items-start">
       <p class="text-lg">
         <i class="ph ph-user mr-3" />John Doe
       </p>
-      <p class="text-sm">customer</p>
     </div>
   </div>
 </section>
 <nav class="navbar tabs mb-5">
-  <div class="container mx-auto">
+  <div class="w-full flex flex-row justify-center">
     <a
       class="tab tab-bordered {currentRoute === '/' ? 'tab-active' : ''}"
       href="/">Home</a
