@@ -1,5 +1,5 @@
 <div
-  class="flex flex-col justify-center md:flex-row bg-base-200 full-width mb-5"
+  class="flex flex-col justify-center md:flex-row bg-slate-100 full-width mb-5"
 >
   <div class="md:text-right px-5 md:px-10 xl:px-20 py-8">
     <h2 class="text-5xl md:text-7xl font-bold pb-5">
@@ -21,7 +21,7 @@
     </button>
   </div>
   <div
-    class="min-w-[400px] min-h-[400px] md:min-w-[540px] xl:min-w-[720px]  flex"
+    class="min-w-[320px] min-h-[320px] sm:min-w-[480px] sm:min-h-[480px] xl:min-w-[720px] flex"
   >
     <div
       class="bg-cover bg-no-repeat bg-center w-full rounded-tl-[20%]"
