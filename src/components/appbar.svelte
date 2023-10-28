@@ -12,7 +12,7 @@
     </div>
     <div class="flex flex-col items-start">
       <p class="text-lg">
-        <i class="ph ph-user mr-3"></i>{$account["name"]}
+        <i class="ph ph-user mr-3"></i>{$account?.["name"]}
       </p>
       <p class="text-sm">customer</p>
     </div>

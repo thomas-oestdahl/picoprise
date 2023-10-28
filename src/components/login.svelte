@@ -4,9 +4,10 @@
 
     const MSAL_CONFIG = {
         auth: {
-            clientId: "bfc06977-9a0d-4e89-b0b6-ca82034530f5",
+            clientId: "480970cf-e49f-47d3-b1ce-ed2ab64ba425",
             redirectUrl: "localhost:5173/login/redirect",
-            authority: "https://login.microsoftonline.com/50afee79-3902-4a04-bf79-718a413783dd",
+            authority: "https://logintretoen.b2clogin.com/logintretoen.onmicrosoft.com/B2C_1_LoginOrSignup",
+            knownAuthorities: ["https://logintretoen.b2clogin.com"]
         },
         cache: {
             cacheLocation: "sessionStorage", // This configures where your cache will be stored
