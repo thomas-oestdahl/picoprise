@@ -1,6 +1,7 @@
 <script>
-  import { toasts, ToastContainer, FlatToast } from "svelte-toasts";
   import Textfield from "../../components/textfield.svelte";
+    import { token } from "../../store/userInfo.js";
+    import { account } from "../../store/userInfo.js";
 
   const fetchUrl = "https://picoprice.azurewebsites.net/api/Order";
 
@@ -35,6 +36,7 @@
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        "Authorization": "Bearer " + $token,
       },
       body: JSON.stringify(order),
     });
@@ -58,12 +60,14 @@
         placeholder="John Doe"
         type="text"
         name="fullname"
+        value={$account?.name}
       />
       <Textfield
         name="email"
         label="Email"
         placeholder="john@doe.com "
         type="email"
+        value={$account?.username}
       />
       <Textfield
         name="address"

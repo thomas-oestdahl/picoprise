@@ -14,11 +14,7 @@
       all your sauna secrets. We’re not saying it’s magical, but it’s been known
       to turn a simple sweat session into a full-blown sauna fiesta!
     </p>
-    <button
-      class="btn btn-primary btn-lg"
-      on:click={() => (window.location.pathname = "/order")}
-      >Order now
-    </button>
+    <a href="/order" class="btn btn-primary btn-lg">Order now </a>
   </div>
   <div
     class="min-w-[320px] min-h-[320px] sm:min-w-[480px] sm:min-h-[480px] xl:min-w-[720px] flex"

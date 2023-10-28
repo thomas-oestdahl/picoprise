@@ -4,7 +4,8 @@
   export let label;
   export let placeholder;
   export let type;
-  export let name
+  export let name;
+  export let value;
 </script>
 
 <div class="form-control w-full max-w-sm">
@@ -16,5 +17,6 @@
     {placeholder}
     class="input input-bordered w-full max-w-sm"
     name={name}
+    value={value ?? ""}
   />
 </div>
