@@ -3,8 +3,10 @@
   $: currentRoute = $page.url.pathname;
 </script>
 
-<section class="navbar bg-slate-100 rounded-br-full">
-  <div class="container mx-auto pr-10 flex items-center justify-between">
+<section class="navbar bg-base-200 rounded-br-full">
+  <div
+    class="container mx-auto px-3 sm:px-10 flex items-center justify-between"
+  >
     <div class="flex flex-col items-start">
       <a class="text-2xl font-bold font-serif" href="/">
         <span class="text-primary">Pico</span>Prise<span
@@ -27,6 +29,7 @@
               <li class="pb-1"><a href="/">Home</a></li>
               <li class="pb-1"><a href="/order">Order</a></li>
               <li class="pb-1"><a href="/myorder">My order</a></li>
+              <li class="pb-1"><a href="/dashboard">Dashboard</a></li>
             </ul>
           </details>
         </li>

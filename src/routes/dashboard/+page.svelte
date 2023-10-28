@@ -50,6 +50,7 @@
         <th>Address</th>
         <th>Date</th>
         <th>Volume</th>
+        <th>Status</th>
       </tr>
     </thead>
     <tbody>
@@ -60,6 +61,9 @@
           <td>{order.address}</td>
           <td>{order.date}</td>
           <td>{order.volume} m<sup>3</sup></td>
+          <td>
+            <span class="badge badge-success">Active</span>
+          </td>
         </tr>
       {/each}
     </tbody>

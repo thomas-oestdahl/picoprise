@@ -1,19 +1,24 @@
-<section class="stats w-full justify-center">
-	<div class="stat place-items-center">
-		<div class="stat-title">Antall produsert</div>
-		<div class="stat-value">31K</div>
-		<div class="stat-desc">From January 1st to February 1st</div>
-	</div>
+<section class="flex flex-row justify-center my-10">
+  <div class="stats stats-vertical sm:stats-horizontal shadow ">
+    <div class="stat place-items-center">
+      <div class="stat-title">Installations</div>
+      <div class="stat-value font-serif text-4xl">25.6K</div>
+      <div class="stat-desc">This year</div>
+    </div>
 
-	<div class="stat place-items-center">
-		<div class="stat-title">Users</div>
-		<div class="stat-value text-secondary">4,200</div>
-		<div class="stat-desc text-secondary">↗︎ 40 (2%)</div>
-	</div>
+    <div class="stat place-items-center">
+      <div class="stat-title">Rating</div>
+      <div class="stat-value font-serif text-4xl">4.8</div>
+      <div class="stat-desc">Average rating</div>
+    </div>
 
-	<div class="stat place-items-center">
-		<div class="stat-title">New Registers</div>
-		<div class="stat-value">1,200</div>
-		<div class="stat-desc">↘︎ 90 (14%)</div>
-	</div>
+    <div class="stat place-items-center">
+      <div class="stat-figure">
+        <i class="ph ph-eye-fill" />
+      </div>
+      <div class="stat-title">Page Views</div>
+      <div class="stat-value font-serif text-4xl">2.6M</div>
+      <div class="stat-desc">21% increase</div>
+    </div>
+  </div>
 </section>

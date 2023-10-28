@@ -1,5 +1,5 @@
 <div
-  class="flex flex-col justify-center md:flex-row bg-slate-100 full-width mb-5"
+  class="flex flex-col justify-center md:flex-row bg-base-200 full-width mb-5"
 >
   <div class="md:text-right px-5 md:px-10 xl:px-20 py-8">
     <h2 class="text-5xl md:text-7xl font-bold pb-5">

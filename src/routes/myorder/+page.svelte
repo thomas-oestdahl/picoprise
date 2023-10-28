@@ -21,7 +21,7 @@
   {#if currentStatus}
     <div class="background-primary mt-10 p-10 rounded-tr-[50px]">
       <p class="text-2xl font-serif font-bold pb-2">{currentStatus.name}</p>
-      <p>{currentStatus.description}</p>
+      <p class="text-lg">{currentStatus.description}</p>
     </div>
   {/if}
 </section>
