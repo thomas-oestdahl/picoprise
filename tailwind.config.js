@@ -14,8 +14,8 @@ export default {
     themes: [
       {
         pico: {
-          primary: "#f000b8",
-          secondary: "#a21caf",
+          primary: "#CE19FC",
+          secondary: "#7D009C",
           accent: "#1dcdbc",
           neutral: "#2b3440",
           "base-100": "#ffffff",

@@ -7,7 +7,7 @@
 <Appbar />
 <Login />
 <main class="overflow-x-hidden">
-  <div class="container mx-auto px-5">
+  <div class="container mx-auto max-w-5xl px-5 py-10">
     <slot />
   </div>
 </main>
